@@ -48,7 +48,7 @@ async function prepare() {
                 sql: "DROP TABLE IF EXISTS animals",
             },
             {
-                sql: "DROP TABLE IF EXISTS queries",
+                sql: "DROP TABLE IF EXISTS searches",
             },
             {
                 sql: "CREATE TABLE animals ( id INTEGER PRIMARY KEY, name TEXT, description TEXT, embedding F32_BLOB(1024) )",

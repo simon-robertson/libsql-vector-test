@@ -16,7 +16,6 @@ async function main() {
     await database.prepare()
 
     http.createServer(handleRequest).listen(config.serverPort | 0)
-    // await database.search("swimming is something they like doing")
 }
 
 setImmediate(main)
