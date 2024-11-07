@@ -1,0 +1,9 @@
+.DS_Store
+.vscode
+
+# directories
+/node_modules
+
+# files
+/.env
+/database.db

@@ -1,0 +1,16 @@
+{
+    "name": "libsql-vector-test",
+    "type": "module",
+    "scripts": {
+        "server": "node ./modules/server.js"
+    },
+    "dependencies": {
+        "@libsql/client": "latest",
+        "dotenv": "latest",
+        "openai": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "latest"
+    },
+    "private": true
+}
